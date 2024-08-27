@@ -1,0 +1,26 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb+srv://divinex:qiwTHEeeJVj2M3dp@divinex.txdcsgc.mongodb.net/divinex?retryWrites=true&w=majority"
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100MB
+      max-request-size: 100MB
+  client:
+    ms-storage:
+      url: https://vg-ms-storage-production.up.railway.app/storage
+    ms-users:
+      url: https://vg-ms-user-production.up.railway.app/api/users
+    ms-income:
+      url: https://vg-ms-income-production.up.railway.app/api/income
+
+feign:
+  client:
+    config:
+      ms-storage:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: BASIC
+server:
+  port: 8080
