@@ -15,6 +15,10 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
+		<properties>
+		  <sonar.organization>toshiroinami</sonar.organization>
+		  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		</properties>
 	</properties>
 	<dependencies>
 		<dependency>
