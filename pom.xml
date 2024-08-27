@@ -19,7 +19,7 @@
         <java.version>17</java.version>
         <!-- SonarCloud properties -->
         <sonar.projectKey>4984ef1b1df9464838376b07508da6f411ee746f</sonar.projectKey> <!-- Reemplaza con tu clave del proyecto -->
-        <sonar.organization>valery-giselle-chumpitaz-caycho</sonar.organization>
+        <sonar.organization>toshiro-cesar-inami-armas</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 	</properties>
