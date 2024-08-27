@@ -19,7 +19,6 @@
         <sonar.projectKey>4a9d80885bf0a1043b244a0e6aefe0beb85009fa</sonar.projectKey> <!-- Reemplaza con tu clave del proyecto -->
         <sonar.organization>toshiro-cesar-inami-armas</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<properties>
 	</properties>
 	<dependencies>
 		<dependency>
