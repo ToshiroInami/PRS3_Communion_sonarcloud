@@ -16,9 +16,12 @@
 	<properties>
 		<java.version>17</java.version>
 		<properties>
-		  <sonar.organization>toshiroinami</sonar.organization>
-		  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		</properties>
+        <java.version>17</java.version>
+        <!-- SonarCloud properties -->
+        <sonar.projectKey>4984ef1b1df9464838376b07508da6f411ee746f</sonar.projectKey> <!-- Reemplaza con tu clave del proyecto -->
+        <sonar.organization>valery-giselle-chumpitaz-caycho</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
 	</properties>
 	<dependencies>
 		<dependency>
